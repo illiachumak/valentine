@@ -27,7 +27,7 @@
 
       const button = document.getElementById('no-button');
 
-      // Add event listener for mouseenter event
+      
       button.addEventListener('mouseenter', function() {
           showMessage('No')
       });
@@ -60,7 +60,7 @@
     document.getElementById("no-button").remove();
 
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "Ти моя бусінка 😘";
+    yesMessage.textContent = "";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/kiss.gif";
